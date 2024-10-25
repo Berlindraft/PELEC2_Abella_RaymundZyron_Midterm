@@ -1,0 +1,187 @@
+/*=============== BASE ===============*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ============== Code ================ */
+html {
+    font-family: 'Montserrat', Arial;
+    font-size: 1rem;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.section-page {
+    width: 100%;
+    height: 50vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    border-bottom:  1px white solid;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 100;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+nav a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #575757;
+}
+
+section {
+    padding-top: 10vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    text-align: center
+}
+.section-page {
+    scroll-margin-top: 15vh; 
+    padding-top: 7vh;
+}
+
+.img-cont {
+    width: 200px;
+    height: auto;
+    margin: auto;
+}
+.img-cont img{
+    max-width: 100%;
+    height: auto;
+}
+#introduction {
+    background-color: #1a1a1a;
+    overflow: hidden;
+    padding: 10vh;
+}
+h2 {
+    font-size: 3rem;
+}
+p {
+    font-size: 1.3rem;
+    width: 50vw;
+    margin: auto;
+}
+
+#about-me {
+    background-color: #1a1a1a;
+    overflow: hidden;
+    scroll-margin-top: 200px;
+    height: 70vh;
+
+}
+
+#education {
+    height: 40vh;
+}
+.info-wrapper {
+    padding: 20px 0;
+    text-align: left;
+    font-size: 0.8rem;
+}
+.techstack-list, .education-list {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    list-style: circle;
+    padding: 0;
+    margin: 0 auto; 
+}
+
+.techstack-list li {
+    text-align: center;
+    padding: 5px 0; 
+    font-size: 1.3rem;
+}
+.education-list li {
+    text-align: center;
+    padding: 5px 0;
+    font-size: 1.3rem;
+}
+.random-cont{
+    width: 660px;
+    margin: 20px auto;
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .techstack-list li {
+        font-size: 1rem;
+    }
+    .education-list li {
+        font-size: 1rem;
+    }
+    #introduction {
+        padding-top: 30vw;
+    }
+    .section-page {
+        width: 100%;
+        height: 60vh;
+    }
+    #introduction {
+        height: 90vh;
+    }
+    #education {
+        height: 64vh;
+    }
+    #about-me {
+        height: 80vh;
+        scroll-margin-top: 200px;
+    }
+    #about-me p {
+        margin-top: 20px;
+    }
+    .random-cont{
+        margin: 20px auto;
+        width: 300px;
+    }
+    .img-cont {
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+    #introduction-cont, 
+    #aboutme-cont, 
+    .education-cont {
+        max-width: 70vw;
+        margin: auto;
+    }
+
+    .info-wrapper{
+        padding: 0;
+        width: 100%;
+    }
+    .info-wrapper p{
+        font-size: 0.6rem;
+        text-align: left;
+        margin: auto;
+    }
+    
+}
