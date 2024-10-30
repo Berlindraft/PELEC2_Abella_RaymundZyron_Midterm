@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    background-color: grey;
+    background-color: #1a1a1a;
     color: white;
     margin: 0;
     padding: 0;
@@ -73,7 +73,6 @@ section {
     height: auto;
 }
 #introduction {
-    background-color: #1a1a1a;
     overflow: hidden;
     padding: 10vh;
 }
@@ -87,7 +86,6 @@ p {
 }
 
 #about-me {
-    background-color: #1a1a1a;
     overflow: hidden;
     scroll-margin-top: 200px;
     height: 700px;
